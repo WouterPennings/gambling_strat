@@ -1,0 +1,29 @@
+var randomBool = fn(percentage) {
+    return rand(1, 101) < percentage
+}
+
+var finalPrize = 1
+var loss = 0
+var money = 1
+
+var i = 0
+
+var con = true
+for(con) {
+    if( randomBool(25) ){
+        money = money - loss
+        con = false
+    }
+    else {
+        loss = money * 2
+        money = loss + finalPrize
+        i = i + 1
+        // This program will crash without this empty print statement
+        // Loop AKA Python exterminator
+        print()
+    }
+}
+
+print("Prize amount:     ") println(money)
+print("Moves:            ") println(i)
+print("Lowest Point:     ") println(loss)
