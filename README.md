@@ -18,6 +18,6 @@ It does work, but there is a huge caveat. Sometimes you just keep losing and sin
 
 This is how to run the Loop version of the program.
 
-1. Download version build 185 from [this website](downloads.looplang.org).
+1. Download version build 185 from [this website](https://downloads.looplang.org)
 2. Navigate to the folder ``loop/``
 3. Run the command: ``loop.exe main.loop``  
