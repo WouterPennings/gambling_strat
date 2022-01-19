@@ -12,7 +12,7 @@ This is the idea: Everytime you lose, you put the amount of money; That means **
 
 ### Results
 
-It does work, but there is a huge caveatt. Sometimes you just keep losing and since this your loses basicly grow exponentionally. In some of my runs I got a loss that was about a trillion times larger than the entire world economy. There is no way you will convince your husband that is a good investment.
+It does work, but there is a huge caveat. Sometimes you just keep losing and since your loses basicly grow exponentially, it gets big... In some of my runs I got a loss that was about a trillion times larger than the entire world economy. There is no way you will convince your husband that is a good investment.
 
 ## How to run
 
