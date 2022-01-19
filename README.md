@@ -8,7 +8,7 @@ The origin from this algorithm came when I thought I came up with a strategy whe
 
 The idea of the strategy is very simple, and it can be used with basicly every game (At least, I think so, I have never gambled.)
 
-This is the idea: Everytime you lose, you put the amount of money; That means **if** you win all the loses from previous games will be returned.
+This is the idea: Everytime you lose, you put the amount of money that you have lost in total; That means **if** you win all the loses from previous games will be returned.
 
 ### Results
 
