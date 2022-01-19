@@ -5,12 +5,13 @@ var randomBool = fn(percentage) {
 var finalPrize = 1
 var loss = 0
 var money = 1
+var perChance = 25
 
 var i = 0
 
 var con = true
 for(con) {
-    if( randomBool(25) ){
+    if( randomBool(perChance) ){
         money = money - loss
         con = false
     }
@@ -24,6 +25,7 @@ for(con) {
     }
 }
 
+print("Per round there was a ") print(perChance) println("% of winning")
 print("Prize amount:     ") println(money)
 print("Moves:            ") println(i)
 print("Lowest Point:     ") println(loss)
