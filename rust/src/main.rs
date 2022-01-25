@@ -1,18 +1,18 @@
 use rand::Rng;
 
 fn main() {
-    let final_prize = 1;
-    let mut loss: i128 = 0;
-    let mut money: i128 = 1;
+    let bet: f32 = 2.0;
+    let mut loss: f64 = 0.0;
+    let mut money: f64 = bet as f64;
 
     let mut i = 0;
     loop {
-        if random_bool(5) {
-            money -= loss;
+        if random_bool(40) {
+            money = (money * 2.0) - loss; 
             break;
         } else {
-            loss = money + money;
-            money = loss + final_prize;
+            loss += money;
+            money = loss / 2.0 + bet as f64;
             i += 1;
         }
     }
